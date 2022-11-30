@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+.container{
+    width:100%;
+    height: 100vh;
+    background-image: url(wallpaperflare.com_wallpaper.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-left: 8% ;
+    padding-right: 8%;
+    box-sizing: border-box;
+
+}
+
+.header{
+    height: 15%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.logo{
+    width: 100px;
+    height: auto;
+    cursor: pointer;
+}
+
+.navbar{
+    text-align: center;
+    flex: 1;
+    background: transparent;
+}
+
+.navbar a{
+    padding: 6px 20px;
+    text-decoration: none;
+    color: rgb(233, 233, 233);
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn{
+    cursor: pointer;
+    color: #cc0052;
+    font-size: 18px;
+    letter-spacing: 2px;
+    padding: 10px 30px;
+    border: 0px solid #08bfbf;
+    background: transparent;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    margin: 40px 8px;
+}
+
+.btn:hover{
+    color:rgb(155, 165, 98);
+    background-color: rgb(83, 126, 129);
+}
+
+.content{
+    text-align: center;
+    margin-top: 2%;
+}
+
+.content h1{
+    font-size: 80px;
+    color: rgb(179, 175, 168);
+} 
+/* need to build a bottom for the page */
+.bottom{
+    border: #003333;
+    text-rendering: auto;
+    text-align: left;
+    background: transparent;
+    width: 100%;
+    height: 15%;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+    margin-top: 20%;
+}
+
